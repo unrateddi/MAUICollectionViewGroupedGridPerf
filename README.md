@@ -3,9 +3,9 @@
 Minimal .NET MAUI (Android) reproduction for two performance problems in `CollectionView` with `GridItemsLayout`:
 
 1. **Regression in 10.0.100** — `SpacingItemDecoration.GetItemOffsets` calls the uncached `SpanSizeLookup.GetSpanGroupIndex(itemCount - 1)` for **every cell on every layout pass**, an O(n) walk per cell. Assigning a 10 000‑item grouped source blocks the UI thread for ~40 s (94 ms on 10.0.90); a finger fling raises an ANR. Introduced by [dotnet/maui#35782](https://github.com/dotnet/maui/pull/35782). [dotnet/maui#38341](https://github.com/dotnet/maui/pull/38341) fixed a crash on the same path but not the cost.
-   Issue: ⟨link to issue 1⟩
+   Issue: https://github.com/dotnet/maui/issues/38925
 2. **Long‑standing** — span lookups over positions the `GridLayoutManager` has not cached are O(position) per cell, because every `getSpanSize` is a JNI call into `GridLayoutSpanSizeLookup`; with a grouped source `ObservableGroupedSource.GetGroupAndIndex` is itself O(position), making them O(position²). ~38 s to `ScrollTo` the last of 10 000 grouped items on 10.0.90; ungrouped 10.0.90 stutters (27 % janky frames) when scrolling up after a jump to the bottom.
-   Issue: ⟨link to issue 2⟩
+   Issue: https://github.com/dotnet/maui/issues/38926
 
 The project is `dotnet new maui` with the `MainPage` replaced; no third‑party packages. Only `net10.0-android` is targeted.
 
