@@ -1,0 +1,339 @@
+09-26 23:44:24.014  3042  4367 I wm_set_resumed_activity: [0,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,resumeTopActivity - onActivityStateChanged]
+09-26 23:44:24.015  3042  4367 I wm_resume_activity: [0,27251065,940,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity]
+09-26 23:44:24.036  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = 51ad80b com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:44:24.036  3042  3079 I input_focus: [Focus request 51ad80b com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=UpdateInputWindows]
+09-26 23:44:24.047  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = 51ad80b com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:44:24.066  3042  3585 I input_focus: [Focus entering 51ad80b com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+09-26 23:44:25.031  3042  3585 I input_interaction: Interaction with: 51ad80b com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] MultiWd-Gesture, PointerEventDispatcher0, 
+09-26 23:44:41.639  3042  3585 I input_focus: [Focus leaving 51ad80b com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=setFocusedWindow]
+09-26 23:44:42.259  3042  4379 I wm_add_to_stopping: [0,27251065,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,makeInvisible]
+09-26 23:44:42.259  3042  4379 I wm_pause_activity: [0,27251065,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,userLeaving=true,finishTransition]
+09-26 23:44:42.264  3042  3078 I wm_stop_activity: [0,27251065,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity]
+09-26 23:44:42.264  3042  3078 I wm_stop_activity: [0,27251065,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity]
+09-26 23:44:42.658  3042 28211 I wm_destroy_activity: [0,27251065,940,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,finish-imm:remove-task]
+09-26 23:44:43.663  3042  3078 I am_kill : [0,25214,com.companyname.groupedgridperf,900,remove task,297292]
+09-26 23:44:43.718  3042  4379 I am_proc_died: [0,25214,com.companyname.groupedgridperf,900,18]
+09-26 23:44:43.729  3042  4379 I wm_task_removed: [940,940,0,removeChild, last child = ActivityRecord{27251065 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity t-1 f}} in Task{1c30c35 #940 type=standard A=10406:com.companyname.groupedgridperf}]
+09-26 23:44:44.052  3042  4005 I wm_create_activity: [0,93621558,941,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,android.intent.action.MAIN,NULL,NULL,270532608]
+09-26 23:44:44.074  3879  3989 I viewroot_draw_event: [VRI[groupedgridperf],reportDrawFinished seqId=0]
+09-26 23:44:44.083  3042  3098 I am_proc_start: [0,28250,10406,com.companyname.groupedgridperf,next-top-activity,{com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}]
+09-26 23:44:44.098  3042  4308 I am_proc_bound: [0,28250,com.companyname.groupedgridperf]
+09-26 23:44:44.101  3042  4308 I wm_restart_activity: [0,93621558,941,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity]
+09-26 23:44:44.101  3042  4308 I wm_set_resumed_activity: [0,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,realStartActivityLocked - onActivityStateChanged]
+09-26 23:44:44.312 28250 28250 I wm_on_create_called: [93621558,crc64ea93b40c81c0976c.MainActivity,performCreate,69]
+09-26 23:44:44.314 28250 28250 I wm_on_start_called: [93621558,crc64ea93b40c81c0976c.MainActivity,handleStartActivity,1]
+09-26 23:44:44.319 28250 28250 I wm_on_resume_called: [93621558,crc64ea93b40c81c0976c.MainActivity,RESUME_ACTIVITY,2]
+09-26 23:44:44.330 28250 28250 I wm_on_top_resumed_gained_called: [93621558,crc64ea93b40c81c0976c.MainActivity,topStateChangedWhenResumed]
+09-26 23:44:44.359  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:44:44.359  3042  3079 I input_focus: [Focus request aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=UpdateInputWindows]
+09-26 23:44:44.372  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:44:45.930 28250 28250 I viewroot_draw_event: [VRI[MainActivity],reportDrawFinished seqId=0]
+09-26 23:44:45.936  3042  3075 I sysui_multi_action: [319,18,321,31,322,1889,325,30817,757,761,758,7,759,1,806,com.companyname.groupedgridperf,871,crc64ea93b40c81c0976c.MainActivity,904,com.hihonor.android.launcher,905,0,945,56,1320,4,1321,4]
+09-26 23:44:45.937  3042  3075 I wm_activity_launch_time: [0,93621558,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,1889]
+09-26 23:44:45.948  3042  3585 I input_focus: [Focus entering aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+09-26 23:44:46.297  3879  3989 I viewroot_draw_event: [VRI[groupedgridperf],Not drawing due to not visible. Reason=View.GONE]
+09-26 23:44:48.322  3042  3585 I input_focus: [Focus leaving aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=Waiting for window because NO_WINDOW]
+09-26 23:44:49.611  3042  4005 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:44:49.611  3042  4005 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:44:49.611  3042  4005 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:44:49.612  3042  4005 I WindowManager: Changing focus from Window{4ef4954 u0 NotificationShade} to Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} mode 0 displayId=0
+09-26 23:44:49.612  3042  3075 I HnSwingMotionGestureHandler: current app:com.companyname.groupedgridperf,appType:-1
+09-26 23:44:49.614 28250 28250 D RtgSched: resetRtgSchedHandle failed enable:1
+09-26 23:44:49.620  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:44:49.620  3042  3079 I input_focus: [Focus request aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=UpdateInputWindows]
+09-26 23:44:49.635  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:44:49.636  3042  3585 I input_focus: [Focus entering aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=setFocusedWindow]
+09-26 23:44:49.636 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:44:49.641  3042  4005 W PackageConfigPersister: App-specific configuration not found for packageName: com.companyname.groupedgridperf and userId: 0
+09-26 23:44:50.581  3042  4346 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:44:50.581  3042  4346 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:44:50.581  3042  4346 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:44:53.104  3042  3585 I input_interaction: Interaction with: aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] MultiWd-Gesture, PointerEventDispatcher0, 
+09-26 23:44:53.223 28250 28466 W HwApsManager: HwApsManagerService, registerCallback, start !
+09-26 23:44:53.224  3042  4379 I HwApsManagerConfig: registerCallbackLocked success, pkgName:com.companyname.groupedgridperf, callback_count:15
+09-26 23:44:53.224  3042  4379 I HwApsManagerConfig: doCallbackAtFirstRegisterLocked, start ! pkgName:com.companyname.groupedgridperf
+09-26 23:44:53.226 28250 28250 I VipSched: Product Name is PGT-N19EEA
+09-26 23:45:01.745  3042  4362 I HwPackageManagerServiceExImpl: getAppType pkgName: com.companyname.groupedgridperf
+09-26 23:45:01.746  3042  4362 I HwPackageManagerServiceExImpl: getAppType pkgName: com.companyname.groupedgridperf
+09-26 23:45:01.746  3879  5429 I HnFreeformCoordinator: calcFreeformTaskBounds taskId:941 , packageName:com.companyname.groupedgridperf , appOrientationPolicy1 , outBounds:Rect(138, 578 - 1449, 2718) , scale:0.79
+09-26 23:45:01.790  3042  3585 I input_interaction: Interaction with: GestureNavBottom, aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] MultiWd-Gesture, PointerEventDispatcher0, 
+09-26 23:45:02.389  3042  3585 I input_interaction: Interaction with: aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] MultiWd-Gesture, PointerEventDispatcher0, 
+09-26 23:45:25.882  3042  3585 I input_cancel: [aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=application not responding]
+09-26 23:45:25.883  3042  3585 I WindowManager: ANR in Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}. Reason:Input dispatching timed out (aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity is not responding. Waited 5000ms for MotionEvent anrTimeLine:2026-09-26 23:45:25.882 seq:179880 eventTime:30853864 deliveryTime:30853868 anrTime:30858869).
+09-26 23:45:25.885  3042 28969 I am_anr  : [0,28250,com.companyname.groupedgridperf,550026820,Input dispatching timed out (aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity is not responding. Waited 5000ms for MotionEvent anrTimeLine:2026-09-26 23:45:25.882 seq:179880 eventTime:30853864 deliveryTime:30853868 anrTime:30858869).]
+09-26 23:45:27.565  3042 28969 E ActivityManager: ANR in com.companyname.groupedgridperf (com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity)
+09-26 23:45:27.565  3042 28969 E ActivityManager: Reason: Input dispatching timed out (aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity is not responding. Waited 5000ms for MotionEvent anrTimeLine:2026-09-26 23:45:25.882 seq:179880 eventTime:30853864 deliveryTime:30853868 anrTime:30858869).
+09-26 23:45:27.565  3042 28969 E ActivityManager: Parent: com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:45:27.565  3042 28969 E ActivityManager:   100% 28250/com.companyname.groupedgridperf: 100% user + 0% kernel
+09-26 23:45:27.565  3042 28969 E ActivityManager:     100% 28250/groupedgridperf: 100% user + 0% kernel
+09-26 23:45:27.568  3042 28969 D ActivityManager: Completed ANR of com.companyname.groupedgridperf in 1684ms, latency 0ms
+09-26 23:45:27.604  3042  3076 I WindowManager: Changing focus from Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} to Window{6053887 u0 Application Not Responding: com.companyname.groupedgridperf} mode 1 displayId=0
+09-26 23:45:27.611  3042  3076 D CoreBackPreview: Window{6053887 u0 Application Not Responding: com.companyname.groupedgridperf}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@8c4754c, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+09-26 23:45:27.615  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = 6053887 Application Not Responding: com.companyname.groupedgridperf
+09-26 23:45:27.615  3042  3079 I input_focus: [Focus request 6053887 Application Not Responding: com.companyname.groupedgridperf,reason=UpdateInputWindows]
+09-26 23:45:27.639  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = 6053887 Application Not Responding: com.companyname.groupedgridperf
+09-26 23:45:27.639  3042  3076 I viewroot_draw_event: [VRI[groupedgridperf],reportDrawFinished seqId=0]
+09-26 23:45:27.639  3042  3585 I input_focus: [Focus leaving aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=Waiting for window because NOT_VISIBLE]
+09-26 23:45:27.672  3042  3585 I input_focus: [Focus entering 6053887 Application Not Responding: com.companyname.groupedgridperf,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+09-26 23:45:27.672  3042  3076 I VRI[groupedgridperf]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:45:28.036  3042  3079 I WindowManager: removeLeash, the window position need update Window{6053887 u0 Application Not Responding: com.companyname.groupedgridperf}
+09-26 23:45:29.025  3042  3585 I input_interaction: Interaction with: 6053887 Application Not Responding: com.companyname.groupedgridperf, [Gesture Monitor] swipe-up, [Gesture Monitor] MultiWd-Gesture, PointerEventDispatcher0, 
+09-26 23:45:29.093  3042  3076 D CoreBackPreview: Window{6053887 u0 Application Not Responding: com.companyname.groupedgridperf}: Setting back callback null
+09-26 23:45:29.093  3042  3076 I VRI[groupedgridperf]: dispatchDetachedFromWindow in doDie
+09-26 23:45:29.097  3042  3076 I WindowManager: Changing focus from Window{6053887 u0 Application Not Responding: com.companyname.groupedgridperf EXITING} to Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} mode 3 displayId=0
+09-26 23:45:29.099  3042  3075 I HnSwingMotionGestureHandler: current app:com.companyname.groupedgridperf,appType:-1
+09-26 23:45:29.102  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:45:29.102  3042  3079 I input_focus: [Focus request aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=UpdateInputWindows]
+09-26 23:45:29.128  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:45:29.129  3042  3585 I input_focus: [Focus entering aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=setFocusedWindow]
+09-26 23:45:29.359  3042  3079 I WindowManager: removeLeash, the window position need update Window{6053887 u0 Application Not Responding: com.companyname.groupedgridperf EXITING}
+09-26 23:45:29.375  3042  3079 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:29.376  3042  3079 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:45:29.376  3042  3079 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:34.130  3042  3076 I WindowManager: Changing focus from Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} to Window{4d2dc2b u0 Application Not Responding: com.companyname.groupedgridperf} mode 1 displayId=0
+09-26 23:45:34.141  3042  3076 D CoreBackPreview: Window{4d2dc2b u0 Application Not Responding: com.companyname.groupedgridperf}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@ff460a0, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+09-26 23:45:34.145  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = 4d2dc2b Application Not Responding: com.companyname.groupedgridperf
+09-26 23:45:34.145  3042  3079 I input_focus: [Focus request 4d2dc2b Application Not Responding: com.companyname.groupedgridperf,reason=UpdateInputWindows]
+09-26 23:45:34.156  3042  3076 I viewroot_draw_event: [VRI[groupedgridperf],reportDrawFinished seqId=0]
+09-26 23:45:34.178  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = 4d2dc2b Application Not Responding: com.companyname.groupedgridperf
+09-26 23:45:34.179  3042  3585 I input_focus: [Focus leaving aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=Waiting for window because NO_WINDOW]
+09-26 23:45:34.179  3042  3585 I input_focus: [Focus entering 4d2dc2b Application Not Responding: com.companyname.groupedgridperf,reason=Window became focusable. Previous reason: NO_WINDOW]
+09-26 23:45:34.179  3042  3076 I VRI[groupedgridperf]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:45:34.559  3042  3079 I WindowManager: removeLeash, the window position need update Window{4d2dc2b u0 Application Not Responding: com.companyname.groupedgridperf}
+09-26 23:45:35.227  3042  3585 I input_interaction: Interaction with: 4d2dc2b Application Not Responding: com.companyname.groupedgridperf, [Gesture Monitor] swipe-up, [Gesture Monitor] MultiWd-Gesture, PointerEventDispatcher0, 
+09-26 23:45:35.297  3042  3076 D CoreBackPreview: Window{4d2dc2b u0 Application Not Responding: com.companyname.groupedgridperf}: Setting back callback null
+09-26 23:45:35.297  3042  3076 I VRI[groupedgridperf]: dispatchDetachedFromWindow in doDie
+09-26 23:45:35.302  3042  3076 I WindowManager: Changing focus from Window{4d2dc2b u0 Application Not Responding: com.companyname.groupedgridperf EXITING} to Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} mode 3 displayId=0
+09-26 23:45:35.303  3042  3075 I HnSwingMotionGestureHandler: current app:com.companyname.groupedgridperf,appType:-1
+09-26 23:45:35.307  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:45:35.307  3042  3079 I input_focus: [Focus request aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=UpdateInputWindows]
+09-26 23:45:35.333  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:45:35.334  3042  3585 I input_focus: [Focus entering aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=setFocusedWindow]
+09-26 23:45:35.562  3042  3079 I WindowManager: removeLeash, the window position need update Window{4d2dc2b u0 Application Not Responding: com.companyname.groupedgridperf EXITING}
+09-26 23:45:35.580  3042  3079 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:35.580  3042  3079 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:45:35.580  3042  3079 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:40.315  3042  3076 I WindowManager: Changing focus from Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} to Window{11c475c u0 Application Not Responding: com.companyname.groupedgridperf} mode 1 displayId=0
+09-26 23:45:40.328  3042  3076 D CoreBackPreview: Window{11c475c u0 Application Not Responding: com.companyname.groupedgridperf}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@9d0b11d, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+09-26 23:45:40.331  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = 11c475c Application Not Responding: com.companyname.groupedgridperf
+09-26 23:45:40.331  3042  3079 I input_focus: [Focus request 11c475c Application Not Responding: com.companyname.groupedgridperf,reason=UpdateInputWindows]
+09-26 23:45:40.342  3042  3076 I viewroot_draw_event: [VRI[groupedgridperf],reportDrawFinished seqId=0]
+09-26 23:45:40.366  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = 11c475c Application Not Responding: com.companyname.groupedgridperf
+09-26 23:45:40.366  3042  3585 I input_focus: [Focus leaving aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=Waiting for window because NO_WINDOW]
+09-26 23:45:40.366  3042  3585 I input_focus: [Focus entering 11c475c Application Not Responding: com.companyname.groupedgridperf,reason=Window became focusable. Previous reason: NO_WINDOW]
+09-26 23:45:40.367  3042  3076 I VRI[groupedgridperf]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:45:40.747  3042  3079 I WindowManager: removeLeash, the window position need update Window{11c475c u0 Application Not Responding: com.companyname.groupedgridperf}
+09-26 23:45:41.503  3042  3585 I input_interaction: Interaction with: 11c475c Application Not Responding: com.companyname.groupedgridperf, [Gesture Monitor] swipe-up, [Gesture Monitor] MultiWd-Gesture, PointerEventDispatcher0, 
+09-26 23:45:41.561  3042  3076 D CoreBackPreview: Window{11c475c u0 Application Not Responding: com.companyname.groupedgridperf}: Setting back callback null
+09-26 23:45:41.561  3042  3076 I VRI[groupedgridperf]: dispatchDetachedFromWindow in doDie
+09-26 23:45:41.567  3042  3076 I WindowManager: Changing focus from Window{11c475c u0 Application Not Responding: com.companyname.groupedgridperf EXITING} to Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} mode 3 displayId=0
+09-26 23:45:41.568  3042  3075 I HnSwingMotionGestureHandler: current app:com.companyname.groupedgridperf,appType:-1
+09-26 23:45:41.573  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:45:41.573  3042  3079 I input_focus: [Focus request aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=UpdateInputWindows]
+09-26 23:45:41.604  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:45:41.604  3042  3585 I input_focus: [Focus entering aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=setFocusedWindow]
+09-26 23:45:41.833  3042  3079 I WindowManager: removeLeash, the window position need update Window{11c475c u0 Application Not Responding: com.companyname.groupedgridperf EXITING}
+09-26 23:45:41.850  3042  3079 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:41.850  3042  3079 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:45:41.850  3042  3079 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:46.578  3042  3076 I WindowManager: Changing focus from Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} to Window{45329fa u0 Application Not Responding: com.companyname.groupedgridperf} mode 1 displayId=0
+09-26 23:45:46.586  3042  3076 D CoreBackPreview: Window{45329fa u0 Application Not Responding: com.companyname.groupedgridperf}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@b2d7523, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+09-26 23:45:46.589  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = 45329fa Application Not Responding: com.companyname.groupedgridperf
+09-26 23:45:46.589  3042  3079 I input_focus: [Focus request 45329fa Application Not Responding: com.companyname.groupedgridperf,reason=UpdateInputWindows]
+09-26 23:45:46.601  3042  3076 I viewroot_draw_event: [VRI[groupedgridperf],reportDrawFinished seqId=0]
+09-26 23:45:46.618  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = 45329fa Application Not Responding: com.companyname.groupedgridperf
+09-26 23:45:46.619  3042  3585 I input_focus: [Focus leaving aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=Waiting for window because NO_WINDOW]
+09-26 23:45:46.636  3042  3585 I input_focus: [Focus entering 45329fa Application Not Responding: com.companyname.groupedgridperf,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+09-26 23:45:46.636  3042  3076 I VRI[groupedgridperf]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:45:46.999  3042  3079 I WindowManager: removeLeash, the window position need update Window{45329fa u0 Application Not Responding: com.companyname.groupedgridperf}
+09-26 23:45:47.799  3042  3585 I input_interaction: Interaction with: 45329fa Application Not Responding: com.companyname.groupedgridperf, [Gesture Monitor] swipe-up, [Gesture Monitor] MultiWd-Gesture, PointerEventDispatcher0, 
+09-26 23:45:47.849  3042  3076 D CoreBackPreview: Window{45329fa u0 Application Not Responding: com.companyname.groupedgridperf}: Setting back callback null
+09-26 23:45:47.849  3042  3076 I VRI[groupedgridperf]: dispatchDetachedFromWindow in doDie
+09-26 23:45:47.854  3042  3076 I WindowManager: Changing focus from Window{45329fa u0 Application Not Responding: com.companyname.groupedgridperf EXITING} to Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} mode 3 displayId=0
+09-26 23:45:47.856  3042  3075 I HnSwingMotionGestureHandler: current app:com.companyname.groupedgridperf,appType:-1
+09-26 23:45:47.861  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:45:47.861  3042  3079 I input_focus: [Focus request aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=UpdateInputWindows]
+09-26 23:45:47.890  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:45:47.891  3042  3585 I input_focus: [Focus entering aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=setFocusedWindow]
+09-26 23:45:48.120  3042  3079 I WindowManager: removeLeash, the window position need update Window{45329fa u0 Application Not Responding: com.companyname.groupedgridperf EXITING}
+09-26 23:45:48.137  3042  3079 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:48.137  3042  3079 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:45:48.137  3042  3079 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:52.604  3042  4379 I WindowManager: surfaceControl level and the IME current surface t =android.view.SurfaceControl$Transaction@4339e2,mInputMethodSurfaceParent = Surface(name=ActivityRecord{93621558 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity t941})/@0xf435918
+09-26 23:45:52.604  3042  4379 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:45:52.604  3042  4379 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:45:52.604  3042  4379 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:45:52.876  3042  3076 I WindowManager: Changing focus from Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} to Window{9e32361 u0 Application Not Responding: com.companyname.groupedgridperf} mode 1 displayId=0
+09-26 23:45:52.885  3042  3076 D CoreBackPreview: Window{9e32361 u0 Application Not Responding: com.companyname.groupedgridperf}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@ab0285e, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+09-26 23:45:52.889  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = 9e32361 Application Not Responding: com.companyname.groupedgridperf
+09-26 23:45:52.889  3042  3079 I input_focus: [Focus request 9e32361 Application Not Responding: com.companyname.groupedgridperf,reason=UpdateInputWindows]
+09-26 23:45:52.899  3042  3076 I viewroot_draw_event: [VRI[groupedgridperf],reportDrawFinished seqId=0]
+09-26 23:45:52.922  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = 9e32361 Application Not Responding: com.companyname.groupedgridperf
+09-26 23:45:52.923  3042  3585 I input_focus: [Focus leaving aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=setFocusedWindow]
+09-26 23:45:52.923  3042  3585 I input_focus: [Focus entering 9e32361 Application Not Responding: com.companyname.groupedgridperf,reason=setFocusedWindow]
+09-26 23:45:52.923  3042  3076 I VRI[groupedgridperf]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:45:53.183  3042  4386 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:53.183  3042  4386 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:45:53.183  3042  4386 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:53.183  3042  4386 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:53.183  3042  4386 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:45:53.183  3042  4386 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:53.183  3042  4386 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:53.183  3042  4386 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:45:53.183  3042  4386 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:53.184  3042  4386 I WindowManager: Changing focus from Window{9e32361 u0 Application Not Responding: com.companyname.groupedgridperf} to Window{3e2773b u0 HeadsupCardListWindow} mode 0 displayId=0
+09-26 23:45:53.224  3042  3585 I input_focus: [Focus leaving 9e32361 Application Not Responding: com.companyname.groupedgridperf,reason=setFocusedWindow]
+09-26 23:45:53.224  3042  3076 I VRI[groupedgridperf]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:45:53.303  3042  3079 I WindowManager: removeLeash, the window position need update Window{9e32361 u0 Application Not Responding: com.companyname.groupedgridperf}
+09-26 23:45:55.443  3042  3585 I input_interaction: Interaction with: 9e32361 Application Not Responding: com.companyname.groupedgridperf, [Gesture Monitor] swipe-up, [Gesture Monitor] MultiWd-Gesture, PointerEventDispatcher0, 
+09-26 23:45:55.494  3042  3076 D CoreBackPreview: Window{9e32361 u0 Application Not Responding: com.companyname.groupedgridperf}: Setting back callback null
+09-26 23:45:55.495  3042  3076 I VRI[groupedgridperf]: dispatchDetachedFromWindow in doDie
+09-26 23:45:55.761  3042  3079 I WindowManager: removeLeash, the window position need update Window{9e32361 u0 Application Not Responding: com.companyname.groupedgridperf EXITING}
+09-26 23:45:55.778  3042  3079 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:55.778  3042  3079 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:45:55.778  3042  3079 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:56.023  3042  4386 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:56.023  3042  4386 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:45:56.023  3042  4386 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:45:56.024  3042  4386 I WindowManager: Changing focus from Window{3e2773b u0 HeadsupCardListWindow} to Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} mode 0 displayId=0
+09-26 23:45:56.025  3042  3075 I HnSwingMotionGestureHandler: current app:com.companyname.groupedgridperf,appType:-1
+09-26 23:45:56.027  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:45:56.027  3042  3079 I input_focus: [Focus request aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=UpdateInputWindows]
+09-26 23:45:56.048  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:45:56.055  3042  3585 I input_focus: [Focus entering aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=setFocusedWindow]
+09-26 23:46:00.333  3042  4386 I WindowManager: surfaceControl level and the IME current surface t =android.view.SurfaceControl$Transaction@4339e2,mInputMethodSurfaceParent = Surface(name=ActivityRecord{93621558 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity t941})/@0xf435918
+09-26 23:46:00.333  3042  4386 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:46:00.333  3042  4386 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:46:00.333  3042  4386 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:46:00.510  3042  3076 I WindowManager: Changing focus from Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} to Window{874631e u0 Application Not Responding: com.companyname.groupedgridperf} mode 1 displayId=0
+09-26 23:46:00.518  3042  3076 D CoreBackPreview: Window{874631e u0 Application Not Responding: com.companyname.groupedgridperf}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@c5e77f7, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+09-26 23:46:00.522  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = 874631e Application Not Responding: com.companyname.groupedgridperf
+09-26 23:46:00.522  3042  3079 I input_focus: [Focus request 874631e Application Not Responding: com.companyname.groupedgridperf,reason=UpdateInputWindows]
+09-26 23:46:00.531  3042  3076 I viewroot_draw_event: [VRI[groupedgridperf],reportDrawFinished seqId=0]
+09-26 23:46:00.548  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = 874631e Application Not Responding: com.companyname.groupedgridperf
+09-26 23:46:00.548  3042  3585 I input_focus: [Focus leaving aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=Waiting for window because NO_WINDOW]
+09-26 23:46:00.565  3042  3585 I input_focus: [Focus entering 874631e Application Not Responding: com.companyname.groupedgridperf,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+09-26 23:46:00.565  3042  3076 I VRI[groupedgridperf]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:00.902  3042  4381 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:00.903  3042  4381 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:46:00.903  3042  4381 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:00.903  3042  4381 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:00.903  3042  4381 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:46:00.903  3042  4381 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:00.903  3042  4381 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:00.903  3042  4381 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:46:00.903  3042  4381 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:00.904  3042  4381 I WindowManager: Changing focus from Window{874631e u0 Application Not Responding: com.companyname.groupedgridperf} to Window{3e2773b u0 HeadsupCardListWindow} mode 0 displayId=0
+09-26 23:46:00.929  3042  3079 I WindowManager: removeLeash, the window position need update Window{874631e u0 Application Not Responding: com.companyname.groupedgridperf}
+09-26 23:46:00.950  3042  3585 I input_focus: [Focus leaving 874631e Application Not Responding: com.companyname.groupedgridperf,reason=Waiting for window because NOT_FOCUSABLE]
+09-26 23:46:00.951  3042  3076 I VRI[groupedgridperf]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:01.162  3042  4379 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:01.162  3042  4379 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:46:01.162  3042  4379 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:01.364  3042  4381 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:01.364  3042  4381 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:46:01.364  3042  4381 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:01.479  3042  4368 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:01.479  3042  4368 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:46:01.479  3042  4368 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:01.479  3042  4368 I WindowManager: Changing focus from Window{3e2773b u0 HeadsupCardListWindow} to Window{874631e u0 Application Not Responding: com.companyname.groupedgridperf} mode 0 displayId=0
+09-26 23:46:01.488  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = 874631e Application Not Responding: com.companyname.groupedgridperf
+09-26 23:46:01.488  3042  3079 I input_focus: [Focus request 874631e Application Not Responding: com.companyname.groupedgridperf,reason=UpdateInputWindows]
+09-26 23:46:01.504  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = 874631e Application Not Responding: com.companyname.groupedgridperf
+09-26 23:46:01.505  3042  3585 I input_focus: [Focus entering 874631e Application Not Responding: com.companyname.groupedgridperf,reason=setFocusedWindow]
+09-26 23:46:01.506  3042  3076 I VRI[groupedgridperf]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:04.664  3042  3079 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:04.664  3042  3079 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:46:04.664  3042  3079 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:05.892  3042  3076 D CoreBackPreview: Window{874631e u0 Application Not Responding: com.companyname.groupedgridperf}: Setting back callback null
+09-26 23:46:05.892  3042  3076 I VRI[groupedgridperf]: dispatchDetachedFromWindow in doDie
+09-26 23:46:05.900  3042  3076 I WindowManager: Changing focus from Window{874631e u0 Application Not Responding: com.companyname.groupedgridperf EXITING} to Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} mode 3 displayId=0
+09-26 23:46:05.901  3042  3075 I HnSwingMotionGestureHandler: current app:com.companyname.groupedgridperf,appType:-1
+09-26 23:46:05.906  3042  3079 I input_focus: SurfaceComposerClient::Transaction::setFocusedWindow: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:46:05.906  3042  3079 I input_focus: [Focus request aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=UpdateInputWindows]
+09-26 23:46:05.921  1904  2319 I input_focus: SurfaceFlinger::updateInputFlinger: windowName = aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity
+09-26 23:46:05.922  3042  3585 I input_focus: [Focus entering aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=setFocusedWindow]
+09-26 23:46:06.152  3042  3079 I WindowManager: removeLeash, the window position need update Window{874631e u0 Application Not Responding: com.companyname.groupedgridperf EXITING}
+09-26 23:46:06.161  3042  3079 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:06.161  3042  3079 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:46:06.161  3042  3079 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:06.641  3042  4368 I HwPackageManagerServiceExImpl: getAppType pkgName: com.companyname.groupedgridperf
+09-26 23:46:06.643  3042  4368 I HwPackageManagerServiceExImpl: getAppType pkgName: com.companyname.groupedgridperf
+09-26 23:46:06.643  3879 15311 I HnFreeformCoordinator: calcFreeformTaskBounds taskId:941 , packageName:com.companyname.groupedgridperf , appOrientationPolicy1 , outBounds:Rect(138, 578 - 1449, 2718) , scale:0.79
+09-26 23:46:06.713  3042  4379 W HwActivityTaskManagerServiceEx: setResumedActivityUncheckLocked start call, from: ActivityRecord{93621558 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity t941}, to: ActivityRecord{83731135 u0 com.hihonor.android.launcher/.unihome.UniHomeLauncher t871}
+09-26 23:46:06.713  3042  4379 I HwActivityTaskManagerServiceEx: backwardTaskTakeover from:ActivityRecord{93621558 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity t941}, to:ActivityRecord{83731135 u0 com.hihonor.android.launcher/.unihome.UniHomeLauncher t871}
+09-26 23:46:06.713  3042  4379 I HwActivityTaskManagerServiceEx: backwardTaskTakeover from task:Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}, to task:Task{91f7cea #871 type=home A=10097:com.hihonor.android.launcher}
+09-26 23:46:06.713  3042  4379 W HwActivityTaskManagerServiceEx: appSwitch from: com.companyname.groupedgridperf to: com.hihonor.android.launcher
+09-26 23:46:06.721  3042  4379 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:06.721  3042  4379 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:46:06.721  3042  4379 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:06.724  3042  3523 I SWAP_SCENE: Entering notifySceneData. EventType: APP_SWITCH_FROM app: com.companyname.groupedgridperf uid: 10406
+09-26 23:46:06.724  3042  5447 I SWAP_AppScore: adjustSwapRatio:pkg:com.companyname.groupedgridperf
+09-26 23:46:06.725  3042  5447 I SWAP_AppScore: final ratio info: pkgName:com.companyname.groupedgridperf, reclaime ratio:60, swap ratio:0
+09-26 23:46:06.725  3042  5447 I SWAP_AppScore: setScoreAndRatioLive::pkgName:com.companyname.groupedgridperf score:300 write r-Ratio:60 s-Ratio: 0 refault:50
+09-26 23:46:06.725  3042  5447 E SWAP_GkiKernelInterface: readAppMemcgInfo result is null: com.companyname.groupedgridperf
+09-26 23:46:06.736  3042  4373 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:06.736  3042  4373 I WindowManager: surfaceControl level and the current topStac,  topStack =Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}
+09-26 23:46:06.736  3042  4373 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:06.761  3042  3075 V WindowManager:         {WCT{RemoteToken{7ba34b Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}}} m=TO_BACK f=NONE leash=Surface(name=Task=941)/@0x7679128 sb=Rect(0, 0 - 1312, 2848) eb=Rect(0, 0 - 1312, 2848) epz=Point(1312, 2848) d=0 taskParent=-1 mSkipAnimation=false mhasLetterbox=false taskId= 0 offScreenBounds=Rect(0, 0 - 0, 0) hnFlags=256},
+09-26 23:46:06.763  3042  3086 I am_pss  : [28250,10406,com.companyname.groupedgridperf,0,0,0,341606400,0,2,2]
+09-26 23:46:06.766  3042  4381 I WindowManager: surfaceControl level and imeTarget current state ,  imeTarget =Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:06.766  3042  4381 I WindowManager: surfaceControl level and the IME current surface ,t =android.view.SurfaceControl$Transaction@4339e2,imeTarget = Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:06.766  3042  4381 I WindowManager: Changing focus from Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} to Window{7f9acb4 u0 com.hihonor.android.launcher/com.hihonor.android.launcher.unihome.UniHomeLauncher} mode 0 displayId=0
+09-26 23:46:06.790  3042  3585 I input_focus: [Focus leaving aa84ca3 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,reason=setFocusedWindow]
+09-26 23:46:07.013 28250 28250 I view_enqueue_input_event: [Motion - Cancel,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity]
+09-26 23:46:07.013 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:07.013 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:07.013 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:07.013 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:07.013 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:07.013 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:07.013 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:07.013 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:07.013 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:07.013 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:07.013 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:07.014 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:07.014 28250 28250 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+09-26 23:46:07.019 28250 28250 D RtgSched: resetRtgSchedHandle failed enable:0
+09-26 23:46:07.019 28250 28250 D RtgSched: resetRtgSchedHandle failed enable:1
+09-26 23:46:07.019 28250 28250 D RtgSched: resetRtgSchedHandle failed enable:0
+09-26 23:46:07.019 28250 28250 D RtgSched: resetRtgSchedHandle failed enable:1
+09-26 23:46:07.020 28250 28250 D RtgSched: resetRtgSchedHandle failed enable:0
+09-26 23:46:07.020 28250 28250 I wm_on_top_resumed_lost_called: [93621558,crc64ea93b40c81c0976c.MainActivity,topStateChangedWhenResumed]
+09-26 23:46:07.223  3042  4368 I WindowManager: EHDR real capture,source: Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf} ,snapshot: TaskSnapshot{ mId=1790455567212 mCaptureTime=38880057419130 mTopActivityComponent=com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity mSnapshot=android.hardware.HardwareBuffer@8529d1f (1312x2848) mColorSpace=Display P3 (id=7, model=RGB) mOrientation=1 mRotation=0 mTaskSize=Point(1312, 2848) mContentInsets=[0,141][0,0] mLetterboxInsets=[0,0][0,0] mIsLowResolution=false mIsRealSnapshot=true mWindowingMode=1 mAppearance=0 mIsTranslucent=false mHasImeSurface=false mIsForceRotate=false mInternalReferences=0 mWriteToParcelCount=0 mUiMode=21
+09-26 23:46:07.225 29686 29686 I TaskStackChangeListeners: don't close hardwareBuffer auto,hash: 83102356 ,listener: com.android.quickstep.RecentsModel@c0d5ed0 ,windowMode: 1 ,component: ComponentInfo{com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:07.226 29686 29686 I TaskStackChangeListeners: don't close hardwareBuffer auto,hash: 58954719 ,listener: com.android.quickstep.RecentsModel@c0d5ed0 ,windowMode: 1 ,component: ComponentInfo{com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:07.227  3042  3569 I HwWindowManagerServiceEx: com.companyname.groupedgridperf blur level: -1
+09-26 23:46:07.240  3042  4381 I TransitionController:    ChangeInfo{2f42d6e container=Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf} flags=0x4}
+09-26 23:46:07.242  3042  4381 I ActivityTaskManager: Make invisible? ActivityRecord{93621558 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity t941} finishing=false state=RESUMED containerShouldBeVisible=false behindFullyOccludedContainer=true mLaunchTaskBehind=false
+09-26 23:46:07.242  3042  4381 I wm_add_to_stopping: [0,93621558,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,makeInvisible]
+09-26 23:46:07.243  3042  4381 I wm_pause_activity: [0,93621558,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,userLeaving=true,finishTransition]
+09-26 23:46:07.247  3042  4381 I WindowManager: surfaceControl level and the IME current surface t =android.view.SurfaceControl$Transaction@4339e2,mInputMethodSurfaceParent = Surface(name=ActivityRecord{93621558 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity t941})/@0xf435918
+09-26 23:46:07.247  3042  4381 I WindowManager: surfaceControl level and the IME current surface t =android.view.SurfaceControl$Transaction@4339e2,mInputMethodSurfaceParent = Surface(name=ActivityRecord{93621558 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity t941})/@0xf435918
+09-26 23:46:07.248  3042  3078 I wm_stop_activity: [0,93621558,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity]
+09-26 23:46:07.248  3042  3078 I wm_stop_activity: [0,93621558,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity]
+09-26 23:46:07.248  3042  3078 I UsageStatsService: reportEvent : component= ComponentInfo{com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} eventType= 2
+09-26 23:46:07.251  3042  3079 I ActivityTaskManager: removeSinkSurface:Surface(name=2e87da4 ActivityRecordInputSink com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity)/@0xace5a2b
+09-26 23:46:07.264 28250 28250 I wm_on_paused_called: [93621558,crc64ea93b40c81c0976c.MainActivity,performPause,5]
+09-26 23:46:07.276  3042  4379 D CoreBackPreview: Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@7a72391, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+09-26 23:46:07.276 28250 28250 I wm_on_stop_called: [93621558,crc64ea93b40c81c0976c.MainActivity,STOP_ACTIVITY_ITEM,7]
+09-26 23:46:07.295 28250 28250 D FullScreenUtils: isNeedToHideStatusBar: splitscreenstate=0
+09-26 23:46:07.295 28250 28250 I viewroot_draw_event: [VRI[MainActivity],Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility]
+09-26 23:46:07.298  3042  3078 I UsageStatsService: reportEvent : component= ComponentInfo{com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} eventType= 23
+09-26 23:46:07.298  3042  4386 I HwActivityTaskManagerServiceEx: notifySfVsync uniquePkg=com.companyname.groupedgridperf:10406 vsyncSwitch=true type=1 mBackGroundAppPkgSet.size=8
+09-26 23:46:07.632  3042 29406 I wm_destroy_activity: [0,93621558,941,com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity,finish-imm:remove-task]
+09-26 23:46:07.634  3042  3078 I ActivityManager: Killing 28250:com.companyname.groupedgridperf/u0a406 (adj 900): remove task
+09-26 23:46:07.634  3042  3078 I am_kill : [0,28250,com.companyname.groupedgridperf,900,remove task,274388]
+09-26 23:46:07.635  3042  3523 I CollectDataProc: [activity restore]  com.companyname.groupedgridperf [killed reason] remove task
+09-26 23:46:07.686  3042  4386 I ActivityManager: Dying app: ProcessRecord{28aa709 28250:com.companyname.groupedgridperf/u0a406}, pid: 28250, isNeedClearup: true, isFromBinderDied:true, curProc:ProcessRecord{28aa709 28250:com.companyname.groupedgridperf/u0a406}, reason:null
+09-26 23:46:07.686  3042  4368 I WindowManager: WIN DEATH: Window{aa84ca3 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity}
+09-26 23:46:07.687  3042  4386 I am_proc_died: [0,28250,com.companyname.groupedgridperf,900,18]
+09-26 23:46:07.690  3042  3076 I SWAP_SCENE: Entering notifySceneData. EventType: PROCESS_DIED app: com.companyname.groupedgridperf uid: 10406
+09-26 23:46:07.690  3042  5447 I SWAP_AppModel: SWAP-APP_DIED_active:pkg:com.companyname.groupedgridperf uid:10406 liveApp:6
+09-26 23:46:07.691  3042  5447 I SWAP_SCENE: This app was killed: com.companyname.groupedgridperf
+09-26 23:46:07.692  3042  4386 I wm_task_removed: [941,941,0,removeChild, last child = ActivityRecord{93621558 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity t-1 f}} in Task{a9446c2 #941 type=standard A=10406:com.companyname.groupedgridperf}]
+09-26 23:46:07.693  3042  4386 I removeFromHistory: ActivityRecord{93621558 u0 com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity t-1 f}} reason appDied Callers=com.android.server.wm.ActivityRecord.handleAppDied:5462 com.android.server.wm.WindowProcessController.handleAppDied:1679 com.android.server.wm.ActivityTaskManagerService$LocalService.handleAppDied:7964 com.android.server.am.ActivityManagerService.handleAppDiedLocked:3716 com.android.server.am.ActivityManagerService.appDiedLocked:3838 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:1659 android.os.IBinder$DeathRecipient.binderDied:350 android.os.BinderProxy.sendDeathNotice:867 
+09-26 23:46:07.693  3042  3078 I UsageStatsService: reportEvent : component= ComponentInfo{com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity} eventType= 24
+09-26 23:46:07.694  3042  3475 W UsageStatsService: Unexpected activity event reported! (com.companyname.groupedgridperf/crc64ea93b40c81c0976c.MainActivity event : 23 instanceId : 180186323)
+09-26 23:46:08.692  3042  5447 I SWAP_GkiKernelInterface: del dir for com.companyname.groupedgridperf success

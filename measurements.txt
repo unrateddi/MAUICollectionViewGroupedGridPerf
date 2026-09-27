@@ -1,0 +1,82 @@
+10.0.90:
+	1000:
+		Grouped:
+			Set Items: 97ms
+			Scroll to bottom: 595ms
+			Scroll to top: 99ms
+		Ungrouped:
+			Set Items: 93ms
+			Scroll to bottom: 209ms
+			Scroll to top: 89ms
+	10000:
+		Grouped:
+			Set Items: 94ms
+			Scroll to bottom: 37748ms
+			Scroll to top: 91ms
+		Ungrouped:
+			Set Items: 97ms
+			Scroll to bottom: 1077ms
+			Scroll to top: 92ms
+
+
+10.0.100:
+	1000:
+		Grouped:
+			Set Items: 696ms
+			Scroll to bottom: 1443ms
+			Scroll to top: 730ms
+		Ungrouped:
+			Set Items: 225ms
+			Scroll to bottom: 371ms
+			Scroll to top: 178ms
+	10000:
+		Grouped:
+			Set Items: 40125ms
+			Scroll to bottom: 99296ms
+			Scroll to top: 43934ms
+		Ungrouped:
+			Set Items: 1186ms
+			Scroll to bottom: 2555ms 
+			Scroll to top: 1159ms
+			
+			
+10.0.110:
+	1000:
+		Grouped:
+			Set Items: 692ms
+			Scroll to bottom: 1408ms
+			Scroll to top: 676ms
+		Ungrouped:
+			Set Items: 229ms
+			Scroll to bottom: 356ms
+			Scroll to top: 215ms
+	10000:
+		Grouped:
+			Set Items: 39085ms
+			Scroll to bottom: 96911ms
+			Scroll to top: 43145ms
+		Ungrouped:
+			Set Items: 1200ms
+			Scroll to bottom: 2519ms 
+			Scroll to top: 1131ms
+			
+			
+11.0.0-rc.1.26451.6
+	1000:
+		Grouped:
+			Set Items: 218ms
+			Scroll to bottom: 348ms
+			Scroll to top: 201ms
+		Ungrouped:
+			Set Items: 110ms
+			Scroll to bottom: 125ms
+			Scroll to top: 102ms
+	10000:
+		Grouped:
+			Set Items: 8125ms
+			Scroll to bottom: 20097ms
+			Scroll to top: 8993ms
+		Ungrouped:
+			Set Items: 346ms
+			Scroll to bottom: 675ms 
+			Scroll to top: 387ms

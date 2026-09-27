@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	x:Class="GroupedGridPerf.MainPage"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:GroupedGridPerf">
+
+	<Grid ColumnDefinitions="*,Auto,Auto,*" RowDefinitions="Auto,*,Auto,Auto,Auto,Auto">
+
+		<Label
+			x:Name="Status"
+			Grid.ColumnSpan="4"
+			Margin="0,5"
+			FontSize="11"
+			HorizontalOptions="Center"
+			Text="Measurements..." />
+
+		<CollectionView
+			x:Name="Cv"
+			Grid.Row="1"
+			Grid.ColumnSpan="4"
+			IsGrouped="True">
+			<CollectionView.ItemsLayout>
+				<GridItemsLayout
+					x:Name="GridLayout"
+					Orientation="Vertical"
+					Span="4" />
+			</CollectionView.ItemsLayout>
+			<CollectionView.GroupHeaderTemplate>
+				<DataTemplate x:DataType="local:Group">
+					<Label
+						Padding="8"
+						FontAttributes="Bold"
+						Text="{Binding Name}" />
+				</DataTemplate>
+			</CollectionView.GroupHeaderTemplate>
+			<CollectionView.ItemTemplate>
+				<DataTemplate x:DataType="x:String">
+					<Grid BackgroundColor="#3A3A3A" HeightRequest="80">
+						<Label
+							HorizontalOptions="Center"
+							Text="{Binding .}"
+							VerticalOptions="Center" />
+					</Grid>
+				</DataTemplate>
+			</CollectionView.ItemTemplate>
+		</CollectionView>
+
+		<Label
+			Grid.Row="2"
+			Grid.Column="0"
+			HorizontalOptions="End"
+			Text="1.000 Items"
+			VerticalOptions="Center" />
+
+		<Switch
+			x:Name="LoadItemsSwitch"
+			Grid.Row="2"
+			Grid.Column="1"
+			Grid.ColumnSpan="2"
+			Margin="20,0"
+			IsToggled="False"
+			Toggled="OnLoadItemsSwitchToggled" />
+
+		<Label
+			Grid.Row="2"
+			Grid.Column="3"
+			Text="10.000 Items"
+			VerticalOptions="Center" />
+
+		<Label
+			Grid.Row="3"
+			Grid.Column="0"
+			HorizontalOptions="End"
+			Text="No Spacing"
+			VerticalOptions="Center" />
+
+		<Switch
+			Grid.Row="3"
+			Grid.Column="1"
+			Grid.ColumnSpan="2"
+			Margin="20,0"
+			Toggled="OnSpacingSwitchToggled" />
+
+		<Label
+			Grid.Row="3"
+			Grid.Column="3"
+			Text="Add Spacing"
+			VerticalOptions="Center" />
+
+		<Label
+			Grid.Row="4"
+			Grid.Column="0"
+			HorizontalOptions="End"
+			Text="No Grouping"
+			VerticalOptions="Center" />
+
+		<Switch
+			x:Name="GroupedSwitch"
+			Grid.Row="4"
+			Grid.Column="1"
+			Grid.ColumnSpan="2"
+			Margin="20,0"
+			HorizontalOptions="Center"
+			IsToggled="True"
+			Toggled="OnGroupedSwitchToggled" />
+
+		<Label
+			Grid.Row="4"
+			Grid.Column="3"
+			Text="Grouped"
+			VerticalOptions="Center" />
+
+		<Button
+			Grid.Row="5"
+			Grid.Column="0"
+			Grid.ColumnSpan="2"
+			Margin="5"
+			Clicked="OnGoToTopClicked"
+			Text="Go to Top" />
+
+		<Button
+			Grid.Row="5"
+			Grid.Column="2"
+			Grid.ColumnSpan="2"
+			Margin="5"
+			Clicked="OnGoToBottomClicked"
+			Text="Go to Bottom" />
+
+	</Grid>
+
+</ContentPage>
